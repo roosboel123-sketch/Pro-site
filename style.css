@@ -1,0 +1,123 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+body{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 12vh 75vh 32vh 32vh;
+}
+
+
+#balk{
+    background-color: white;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-image: url(images/balk.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#chairman{
+    background-color: white;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-image: url(images/Scherm­afbeelding\ 2026-10-15\ om\ 15.31.56\ kopie.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#allfonts{
+    background-color:#FF6600;
+    grid-column: 1/2;
+    grid-row: 3/5;
+    border-radius: 30px;
+    background-image: url(images/allfonts2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#globalfonts{
+    background-color: black;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border-radius: 30px;
+   background-image: url(images/globalfonts2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#variabelefonts{
+    background-color:#FFBACF;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border-radius: 30px;
+    background-image: url(images/variablefonts2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#smartfonts{
+    background-color:#00B6DE;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    border-radius: 30px;
+    background-image: url(images/smartfonts2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#superfamilies{
+    background-color: #B4ECFF;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    border-radius: 30px;
+    background-image: url(images/superfamilies2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#legibilityfonts{
+    background-color: #BEA174;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    border-radius: 30px;
+    background-image: url(images/legibilityfonts2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#opticalsizes{
+    background-color: #FF4D00;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    border-radius: 30px;
+    background-image: url(images/opticalsizes2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
